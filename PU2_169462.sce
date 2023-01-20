@@ -19,4 +19,4 @@ y2=((x^4)+(4*x))/(11*(x^2)+3)+3
 plot(x,y1,x,y2); title('Zad2'); xlabel('oś x'); ylabel('oś y');
 //zad3
 Rok=[2010,2012,2014,2016,2018]
-wyniki = [212 227;223 217;252 262;323 362;331 319]; title('Zad3');xgrid;
+bar (Rok, wyniki); legend (['Niemcy';'Francja']); title('Zad3');xgrid;
